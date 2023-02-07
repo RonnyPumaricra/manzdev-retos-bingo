@@ -1,12 +1,3 @@
-// export default {
-//   base: "",
-//   root: "src",
-//   publicDir: "../public",
-//   build: {
-//     outDir: "../dist"
-//   }
-// }
-
 import path from "path";
 const isGitHubPages = true;
 const folderName = path.basename(process.cwd()) + "/";
