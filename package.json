@@ -1,0 +1,24 @@
+{
+  "name": "manzdev-retos-bingo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite src --host",
+    "build": "vite build src --emptyOutDir",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^29.0.0",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.6.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
