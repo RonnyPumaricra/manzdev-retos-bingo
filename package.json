@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite src --host",
-    "build": "vite build src --emptyOutDir",
-    "preview": "vite preview"
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview --host",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "eslint": "^8.33.0",
+    "gh-pages": "^5.0.0",
     "stylelint": "^14.16.1",
     "stylelint-config-standard": "^29.0.0",
     "vite": "^3.1.0"
